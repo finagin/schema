@@ -1,0 +1,27 @@
+{
+  "$id": "https://finagin.github.io/schema/currency.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Currency",
+  "required": [
+    "id",
+    "alias",
+    "symbol",
+    "name"
+  ],
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "alias": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
+
